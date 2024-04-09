@@ -26,6 +26,53 @@ li:hover a {
     padding-top: 15px;
 }
 
+
+/****** Form ******/
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.location-logo {
+    display: flex;
+    background-color: lightgrey;
+    padding: 10px 15px;
+    border-radius: 10px 0 0 10px;
+    border: solid lightgrey 3px;
+}
+
+.location-logo i {
+    color: black;
+}
+
+.search-bar input {
+    display: inline;
+    padding: 10px;
+    border: solid #f2f2f2 1px;
+    outline: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.search-bar ::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+.search-bar button {
+    background-color: #0065Fc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    outline: none;
+    border: solid #0065fc 1px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
