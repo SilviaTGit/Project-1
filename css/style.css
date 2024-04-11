@@ -124,7 +124,7 @@ body {
     justify-content: center;
 }
 
-.main-container {
+.main-container, footer {
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;  /***maybe you have to delete padding because the total page margin are too large***/
@@ -230,7 +230,7 @@ a {
     margin-bottom: 5px;
 }
 
-.afficher-plus {
+.hebergements-more {
     margin-bottom: 0px;
 }
 
@@ -310,6 +310,13 @@ a {
     margin-top: 10px;
     margin-bottom: 15px;}
 
+
+footer {
+    display: flex;
+    padding-left: 20px;
+    background-color: var(--main-bg-color);
+    gap: 20%;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
