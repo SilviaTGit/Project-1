@@ -1,6 +1,6 @@
 /****** Header *********/
 nav {
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
@@ -11,7 +11,7 @@ nav ul {
     list-style: none;
 }
 
-nav li{
+nav li {
     margin-right: 35px;
 }
 
@@ -21,38 +21,38 @@ nav img {
 }
 
 li:hover a {
-    color:#0065FC;
-    border-top: 3px solid #0065FC;
+    color: #0065fc;
+    border-top: 3px solid #0065fc;
     padding-top: 15px;
 }
 
 /****Search and Filters Section******/
 .search-and-filters {
-    margin-top:50px;
+    margin-top: 50px;
     margin-bottom: 30px;
 }
 
 .search-and-filters i {
-    color: #0065FC;
+    color: #0065fc;
 }
 
 /****** Search bar ******/
 .search-bar {
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: #ffffff;
     margin-top: 40px;
 }
 
 .location-logo {
-    background-color: #f2f2f2;
+    background-color: var(--main-bg-color);
     padding: 10px 15px;
     border-radius: 10px 0 0 10px;
-    border: solid #F2F2F2 2px;
+    border: solid #f2f2f2 2px;
 }
 
 .location-logo i {
-    color: black;
+    color: #000000;
 }
 
 .search-bar input {
@@ -70,8 +70,8 @@ li:hover a {
 }
 
 .search-bar button {
-    background-color: #0065Fc;
-    color: white;
+    background-color: #0065fc;
+    color: #ffffff;
     padding: 10px 20px;
     border-radius: 0 10px 10px 0;
     cursor: pointer;
@@ -95,24 +95,25 @@ li:hover a {
     border-radius: 30px;
     margin-left: 20px;
     padding: 0 20px 0 20px;
-    background-color: white;
+    background-color: #ffffff;
     border: solid #f2f2f2 3px;
     height: 40px;
 }
 
 .filters button:hover {
-    background-color: #DEEBFF;
+    background-color: #deebff;
 }
 
 /****** General ***********/
 * {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
+    border: 2px solid black; /****to delete at the end!***/
 }
 
 :root {
-    --main-color: #0065FC;
-    --main-bg-color: #F2F2F2;
-    --filter-bg-color: #DEEBFF;
+    --main-color: #0065fc;
+    --main-bg-color: #f2f2f2;
+    --filter-bg-color: #deebff;
 }
 
 .fa-solid {
@@ -124,16 +125,18 @@ body {
     justify-content: center;
 }
 
-.main-container, footer {
+.main-container,
+footer {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;  /***maybe you have to delete padding because the total page margin are too large***/
+    padding: 0 50px; /***maybe you have to delete padding because the total page margin are too large***/
     box-sizing: border-box;
 }
 
 a {
     color: inherit;
     text-decoration: none;
+    display: inline-block;
 }
 
 .section-title {
@@ -142,7 +145,7 @@ a {
 }
 
 .card {
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 20px;
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
@@ -161,7 +164,7 @@ a {
 }
 
 .neutral-star {
-    color: var(--main-bg-color)
+    color: var(--main-bg-color);
 }
 
 /****** Hebergements And Populaires ***********/
@@ -199,7 +202,7 @@ a {
     display: flex;
     flex-direction: column;
     margin-top: 33px;
-    width: 240px;
+    width: 30%;
 }
 
 .hebergements-cards img {
@@ -231,7 +234,7 @@ a {
 }
 
 .hebergements-more {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 /****** Populaires ***********/
@@ -243,6 +246,11 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.populaires-cards {
+    display: flex;
+    flex-direction: column;
 }
 
 .populaires-cards .card {
@@ -290,12 +298,18 @@ a {
     justify-content: space-between;
 }
 
+.activites-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .activites-cards .card {
     display: flex;
     flex-direction: column;
     padding: 0;
     margin-top: 33px;
-    width:300px;
+    width: 23%;
 }
 
 .activites-cards img {
@@ -308,9 +322,10 @@ a {
 .activites-cards .card-title {
     padding-left: 15px;
     margin-top: 10px;
-    margin-bottom: 15px;}
+    margin-bottom: 15px;
+}
 
-
+/****** Footer *******/
 footer {
     display: flex;
     padding-left: 20px;
