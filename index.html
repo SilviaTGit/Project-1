@@ -25,11 +25,10 @@
                         src="images/logo/Booki.png"
                         alt="logo du site"
                         id="logo" />
-                    <ul>
-                        <li><a href="#hebergements">Hébergements</a></li>
-                        <li><a href="#activites">Activités</a></li>
-                        <!---after you have to create the section "activitesàMarseille and its link"--->
-                    </ul>
+                    <div class="links">
+                        <a href="#hebergements">Hébergements</a>
+                        <a href="#activites">Activités</a>
+                    </div>
                 </nav>
             </header>
             <section class="search-and-filters">
@@ -44,26 +43,37 @@
                         name="location"
                         id="location"
                         placeholder="Marseille, France" />
-                    <button type="submit">Rechercher</button>
+                    <button type="submit">
+                        <span class="magnifing-glass-logo">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <span class="rechercher-text">Rechercher</span>
+                    </button>
                 </form>
 
                 <div class="filters">
                     <h3>Filtres</h3>
-                    <button>
-                        <h3>
-                            <i class="fa-solid fa-money-bill-wave"></i>
-                            Économique
-                        </h3>
-                    </button>
-                    <button>
-                        <h3><i class="fa-solid fa-person"></i> Familial</h3>
-                    </button>
-                    <button>
-                        <h3><i class="fa-solid fa-heart"></i> Romantique</h3>
-                    </button>
-                    <button>
-                        <h3><i class="fa-solid fa-fire"></i> Nos pépites</h3>
-                    </button>
+                    <div class="buttons">
+                        <button>
+                            <h3>
+                                <i class="fa-solid fa-money-bill-wave"></i>
+                                Économique
+                            </h3>
+                        </button>
+                        <button>
+                            <h3><i class="fa-solid fa-person"></i> Familial</h3>
+                        </button>
+                        <button>
+                            <h3>
+                                <i class="fa-solid fa-heart"></i> Romantique
+                            </h3>
+                        </button>
+                        <button>
+                            <h3>
+                                <i class="fa-solid fa-fire"></i> Nos pépites
+                            </h3>
+                        </button>
+                    </div>
                 </div>
                 <p>
                     <i class="fa-solid fa-circle-info"></i> Plus de 500
