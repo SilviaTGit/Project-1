@@ -5,13 +5,13 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 10px;
+    padding: 0 10px 10px 10px;
     box-sizing: border-box;
 }
 
 .links {
     display: flex;
-    height: 60px;
+    height: 50px;
     align-items: flex-end;
     padding-bottom: 20px;
     gap: 70px;
@@ -19,12 +19,13 @@ nav {
 
 nav img {
     height: 25px;
+    padding-top: 20px;
 }
 
 .links a:hover {
     color: var(--main-color);
     border-top: 3px solid var(--main-color);
-    padding-top: 30px;
+    padding-top: 35px;
 }
 
 /****Search and Filters Section******/
@@ -95,6 +96,11 @@ nav img {
     gap: 10px;
 }
 
+.button-content {
+    font-size: 17px;
+    font-weight: bold;
+}
+
 .buttons {
     display: flex;
     width: 100%;
@@ -105,7 +111,7 @@ nav img {
     display: flex;
     align-items: center;
     border-radius: 30px;
-    padding: 15px 15x 15px 15px;
+    padding: 15px;
     background-color: #ffffff;
     border: solid var(--main-bg-color) 3px;
     height: 40px;
@@ -118,7 +124,6 @@ nav img {
 /****** General ***********/
 * {
     font-family: "Raleway", sans-serif;
-    /* border: 2px solid black; /****to delete at the end!***/
 }
 
 :root {
@@ -420,7 +425,7 @@ footer {
 
     .links a:hover {
         border-bottom: 3px solid var(--main-color);
-        padding-bottom: 27px;
+        padding-bottom: 32px;
         border-top: none;
     }
 
