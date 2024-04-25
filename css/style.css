@@ -463,6 +463,7 @@ footer {
     .filters button {
         flex-basis: 48%;
         max-width: 235px;
+        padding: 0;
         justify-content: center;
     }
 
