@@ -67,6 +67,7 @@ nav img {
     font-weight: bold;
 }
 
+/***loupe***/
 .magnifing-glass-logo i {
     color: #ffffff;
     display: none;
@@ -307,7 +308,7 @@ a {
     margin-bottom: 5px;
 }
 
-/********Activités à Marseille******/
+/******** Activités ******/
 .activites {
     padding: 30px;
     box-sizing: border-box;
@@ -358,6 +359,7 @@ footer {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    /****** Filters **********/
     .filters {
         height: auto;
         flex-direction: column;
@@ -365,6 +367,7 @@ footer {
         gap: 0;
     }
 
+    /***** Hebergements and Populaires ******/
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -396,6 +399,7 @@ footer {
         font-size: 13px;
     }
 
+    /******** Activités ******/
     .activites-cards img {
         height: 200px;
     }
@@ -407,6 +411,7 @@ footer {
         padding: 0;
     }
 
+    /***** Header *****/
     nav {
         flex-direction: column;
         align-items: center;
@@ -430,6 +435,7 @@ footer {
         border-top: none;
     }
 
+    /****** Search bar *****/
     .search-bar {
         justify-content: center;
     }
@@ -447,6 +453,7 @@ footer {
         display: none;
     }
 
+    /***** Filters *****/
     .buttons {
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -459,6 +466,7 @@ footer {
         justify-content: center;
     }
 
+    /***** Hebergements and populaires ****/
     .hebergements-and-populaires {
         flex-direction: column-reverse;
     }
@@ -487,6 +495,7 @@ footer {
         width: 100%;
     }
 
+    /******* Activités ******/
     .activites-cards {
         flex-direction: column;
     }
@@ -495,6 +504,7 @@ footer {
         width: 100%;
     }
 
+    /******* Footer *****/
     footer {
         flex-direction: column;
     }
