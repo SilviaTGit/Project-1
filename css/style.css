@@ -28,7 +28,7 @@ nav img {
     padding-top: 35px;
 }
 
-/****Search and Filters Section******/
+/**** Search and Filters Section ******/
 .search-and-filters {
     padding: 10px;
 }
@@ -67,7 +67,7 @@ nav img {
     font-weight: bold;
 }
 
-/***loupe***/
+/**** Magnifing glass invisible ****/
 .magnifing-glass-logo i {
     color: #ffffff;
     display: none;
@@ -440,17 +440,19 @@ footer {
         justify-content: center;
     }
 
+    /**** Magnifing glass visible ******/
     .magnifing-glass-logo i {
         display: inline;
+    }
+
+    /***** Search text invisible ******/
+    .search-text {
+        display: none;
     }
 
     .search-bar button {
         background-color: var(--main-color);
         border-radius: 10px;
-    }
-
-    .search-text {
-        display: none;
     }
 
     /***** Filters *****/
