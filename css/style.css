@@ -143,8 +143,7 @@ body {
     justify-content: center;
 }
 
-.main-container,
-footer {
+.main-container {
     width: 100%;
     max-width: 1440px;
     min-width: 320px;
