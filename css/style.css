@@ -187,6 +187,7 @@ a {
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -309,6 +310,7 @@ a {
 
 /******** Activités ******/
 .activites {
+    margin-bottom: 30px;
     padding: 30px;
     box-sizing: border-box;
 }
@@ -457,7 +459,7 @@ footer {
     /***** Filters *****/
     .buttons {
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: space-between;
         height: 130px;
     }
 
