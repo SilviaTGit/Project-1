@@ -11,10 +11,15 @@ nav {
 
 .links {
     display: flex;
-    height: 50px;
-    align-items: flex-end;
-    padding-bottom: 20px;
+    height: 55px;
     gap: 70px;
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border-top: solid 2px transparent;
 }
 
 nav img {
@@ -24,8 +29,7 @@ nav img {
 
 .links a:hover {
     color: var(--main-color);
-    border-top: 3px solid var(--main-color);
-    padding-top: 35px;
+    border-top: 2px solid var(--main-color);
 }
 
 /**** Search and Filters Section ******/
@@ -423,18 +427,18 @@ footer {
     .links {
         width: 100%;
         align-items: center;
-        padding-bottom: 0;
+        gap: 0;
     }
 
     .links a {
         width: 50%;
-        text-align: center;
+        justify-content: center;
+        border-bottom: 2px solid var(--main-bg-color);
     }
 
     .links a:hover {
-        border-bottom: 3px solid var(--main-color);
-        padding-bottom: 32px;
-        border-top: none;
+        border-bottom: 2px solid var(--main-color);
+        border-top: 2px solid transparent;
     }
 
     /****** Search bar *****/
