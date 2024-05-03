@@ -101,6 +101,7 @@ nav img {
 .button-content {
     font-size: 17px;
     font-weight: bold;
+    gap: 6px;
 }
 
 .buttons {
@@ -185,7 +186,7 @@ a {
     color: var(--main-bg-color);
 }
 
-/****** Hebergements And Populaires ***********/
+/****** Hébergements And Populaires ***********/
 .hebergements-and-populaires {
     margin-bottom: 30px;
     display: flex;
@@ -198,7 +199,7 @@ a {
     box-sizing: border-box;
 }
 
-/****** Hebergements ***********/
+/****** Hébergements ***********/
 .hebergements {
     background-color: var(--main-bg-color);
     width: 65%;
@@ -368,7 +369,7 @@ footer {
         gap: 0;
     }
 
-    /***** Hebergements and Populaires ******/
+    /***** Hébergements and Populaires ******/
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -441,6 +442,10 @@ footer {
         justify-content: center;
     }
 
+    .search-bar input {
+        width: 65%;
+    }
+
     /**** Magnifing glass visible ******/
     .magnifing-glass-logo i {
         display: inline;
@@ -470,7 +475,12 @@ footer {
         justify-content: center;
     }
 
-    /***** Hebergements and populaires ****/
+    .button-content {
+        display: flex;
+        width: 125.5px;
+    }
+
+    /***** Hébergements and populaires ****/
     .hebergements-and-populaires {
         flex-direction: column-reverse;
     }
