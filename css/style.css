@@ -52,7 +52,7 @@ nav img {
 
 .location-logo {
     background-color: var(--main-bg-color);
-    padding: 10px 15px;
+    padding: 15px 15px;
     border-radius: 10px 0 0 10px;
     border: solid #f2f2f2 2px;
 }
@@ -64,7 +64,7 @@ nav img {
 .search-bar input {
     width: 17%;
     min-width: 150px;
-    padding: 10px;
+    padding: 15px;
     border: solid var(--main-bg-color) 1px;
     outline: none;
     font-size: 17px;
@@ -85,7 +85,7 @@ nav img {
 .search-bar button {
     background-color: var(--main-color);
     color: #ffffff;
-    padding: 10px 20px;
+    padding: 15px 20px;
     border-radius: 0 10px 10px 0;
     cursor: pointer;
     outline: none;
@@ -447,7 +447,7 @@ footer {
     }
 
     .search-bar input {
-        width: 65%;
+        width: 100%;
     }
 
     /**** Magnifing glass visible ******/
@@ -463,6 +463,10 @@ footer {
     .search-bar button {
         background-color: var(--main-color);
         border-radius: 10px;
+    }
+
+    .search-bar input {
+        border-right: solid 1px transparent;
     }
 
     /***** Filters *****/
